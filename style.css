@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&family=Press+Start+2P&display=swap');
+
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body, html {
+  overflow-x: hidden;
+  font-family: 'Press Start 2P', cursive;
+}
+body {
+  background-image: url('/images/banner-bg.png');
+}
+#app {
+  position: absolute;
+  top: 0;
+  left: 9;
+  z-index: 1;
+}
+.nav {
+  z-index: 2;
+  color: aliceblue;
+  position: relative;
+  padding: 0 3rem;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 4rem;
+  font-size: small;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.title {
+  color: aliceblue;
+  z-index: 2;
+  position: absolute;
+  font-size: 3rem;
+  left:  50%;
+  top: 85%;
+  transform: translate(-50%, -25%);
+  font-size: xx-large;
+  text-align: center;
+}
+.title-body {
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+  border: 1px solid bisque;
+}
+#app {
+  /* opacity: 0.5; */
+}
